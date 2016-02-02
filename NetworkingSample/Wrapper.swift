@@ -11,5 +11,7 @@ import UIKit
 
 
 class Wrapper: NSObject {
-
+    override init() {
+        print("Wrapper")
+    }
 }
