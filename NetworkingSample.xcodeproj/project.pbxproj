@@ -14,7 +14,7 @@
 		D2C704D21C6164870026DD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C704D01C6164870026DD70 /* LaunchScreen.storyboard */; };
 		D2C704DD1C6164870026DD70 /* NetworkingSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704DC1C6164870026DD70 /* NetworkingSampleTests.swift */; };
 		D2C704E81C6164870026DD70 /* NetworkingSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704E71C6164870026DD70 /* NetworkingSampleUITests.swift */; };
-		D2C704F61C61664A0026DD70 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704F51C6166490026DD70 /* Wrapper.swift */; };
+		D2C704FA1C616ED50026DD70 /* HttpWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704F91C616ED50026DD70 /* HttpWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		D2C704E31C6164870026DD70 /* NetworkingSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C704E71C6164870026DD70 /* NetworkingSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingSampleUITests.swift; sourceTree = "<group>"; };
 		D2C704E91C6164870026DD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C704F51C6166490026DD70 /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		D2C704F91C616ED50026DD70 /* HttpWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			children = (
 				D2C704C71C6164870026DD70 /* AppDelegate.swift */,
 				D2C704C91C6164870026DD70 /* ViewController.swift */,
-				D2C704F51C6166490026DD70 /* Wrapper.swift */,
+				D2C704F91C616ED50026DD70 /* HttpWrapper.swift */,
 				D2C704CB1C6164870026DD70 /* Main.storyboard */,
 				D2C704CE1C6164870026DD70 /* Assets.xcassets */,
 				D2C704D01C6164870026DD70 /* LaunchScreen.storyboard */,
@@ -260,8 +260,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C704CA1C6164870026DD70 /* ViewController.swift in Sources */,
+				D2C704FA1C616ED50026DD70 /* HttpWrapper.swift in Sources */,
 				D2C704C81C6164870026DD70 /* AppDelegate.swift in Sources */,
-				D2C704F61C61664A0026DD70 /* Wrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
