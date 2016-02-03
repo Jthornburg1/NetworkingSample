@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D25C67561C62513E00BE91EA /* RequestFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C67551C62513E00BE91EA /* RequestFromString.swift */; };
+		D25C67581C626AF600BE91EA /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25C67571C626AF600BE91EA /* HttpRequest.swift */; };
 		D2C704C81C6164870026DD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704C71C6164870026DD70 /* AppDelegate.swift */; };
 		D2C704CA1C6164870026DD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C704C91C6164870026DD70 /* ViewController.swift */; };
 		D2C704CD1C6164870026DD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C704CB1C6164870026DD70 /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D25C67551C62513E00BE91EA /* RequestFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestFromString.swift; sourceTree = "<group>"; };
+		D25C67571C626AF600BE91EA /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = ../HttpRequest.swift; sourceTree = "<group>"; };
 		D2C704C41C6164860026DD70 /* NetworkingSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkingSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C704C71C6164870026DD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C704C91C6164870026DD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +81,6 @@
 		D2C704BB1C6164860026DD70 = {
 			isa = PBXGroup;
 			children = (
-				D25C67551C62513E00BE91EA /* RequestFromString.swift */,
 				D2C704C61C6164860026DD70 /* NetworkingSample */,
 				D2C704DB1C6164870026DD70 /* NetworkingSampleTests */,
 				D2C704E61C6164870026DD70 /* NetworkingSampleUITests */,
@@ -104,6 +103,7 @@
 			children = (
 				D2C704C71C6164870026DD70 /* AppDelegate.swift */,
 				D2C704C91C6164870026DD70 /* ViewController.swift */,
+				D25C67571C626AF600BE91EA /* HttpRequest.swift */,
 				D2C704F91C616ED50026DD70 /* HttpWrapper.swift */,
 				D2C704CB1C6164870026DD70 /* Main.storyboard */,
 				D2C704CE1C6164870026DD70 /* Assets.xcassets */,
@@ -263,8 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C704CA1C6164870026DD70 /* ViewController.swift in Sources */,
+				D25C67581C626AF600BE91EA /* HttpRequest.swift in Sources */,
 				D2C704FA1C616ED50026DD70 /* HttpWrapper.swift in Sources */,
-				D25C67561C62513E00BE91EA /* RequestFromString.swift in Sources */,
 				D2C704C81C6164870026DD70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
